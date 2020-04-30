@@ -1,6 +1,12 @@
 <keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="EditorStartNewLineBefore" />
+  <action id="QuickActionPopup" />
   <action id="RefactoringMenu">
     <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
   <action id="Replace" />
   <action id="RiderUnitTestRunContextTwAction">
