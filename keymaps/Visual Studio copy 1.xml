@@ -1,14 +1,22 @@
 <keymap version="1" name="Visual Studio copy 1" parent="Visual Studio">
   <action id="ChangeSignature" />
+  <action id="CloseAllUnpinnedEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
+  </action>
   <action id="DatabaseView.MoveToGroup" />
   <action id="EditorToggleShowWhitespaces" />
   <action id="ExtractMethod" />
+  <action id="FileChooser.TogglePathShowing" />
   <action id="Inline" />
   <action id="IntroduceField" />
   <action id="IntroduceParameter" />
   <action id="IntroduceVariable" />
   <action id="ModifyObject" />
   <action id="Move" />
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="Print" />
   <action id="RefactoringMenu">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
@@ -20,5 +28,6 @@
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="alt delete" />
   </action>
+  <action id="VcsShowPrevChangeMarker" />
   <action id="sql.ExtractFunctionAction" />
 </keymap>
